@@ -1,5 +1,7 @@
 import "./App.css";
 import Counter from "./Components/Counter";
+import DynamicCounter from "./Components/DynamicCounter";
+import HooksWithCounter from "./Components/HooksCounter";
 
 function App() {
   return (
@@ -9,9 +11,10 @@ function App() {
       </h1>
 
       <div className="max-w-md mx-auto mt-10 space-y-5">
-        <Counter />
-        <Counter />
-        <Counter />
+        {/* <HooksWithCounter /> */}
+        <Counter dynamic={true} />
+        <Counter dynamic={false} />
+        <DynamicCounter />
       </div>
     </div>
   );
