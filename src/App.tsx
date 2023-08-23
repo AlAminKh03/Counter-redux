@@ -11,7 +11,7 @@ function App() {
       </h1>
 
       <div className="max-w-md mx-auto mt-10 space-y-5">
-        {/* <HooksWithCounter /> */}
+        <HooksWithCounter />
         <Counter dynamic={true} />
         <Counter dynamic={false} />
         <DynamicCounter />
